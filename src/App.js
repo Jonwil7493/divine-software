@@ -181,29 +181,43 @@ function App() {
       </div>
 
       {/* Text Column */}
-      <div className="col-12 col-md-8">
-        <p>At divine software solutions, we're not just a company; we're a team of 
-          passionate individuals who believe in the power of technology to transform 
-          businesses and make a difference.
-          </p>
-        <p>
-          I'm Jonathan, founder of Divine Software Solutions and a software engineer 
-          who believes great technology shouldn't be out of reach for small businesses 
-          and startups.
-        </p>
-        <p>
-          Too many business owners have been quoted outrageous prices by agencies that 
-          treat them like a ticket number. I built Divine Software Solutions to be 
-          different — a personal, approachable partner who actually listens to your goals, 
-          builds something that works, and stays in your corner after launch.
-        </p>
-        <p>
-          Whether you're a local business that needs a professional online presence or 
-          an entrepreneur ready to bring a big idea to life, I'll work with you directly 
-          from day one to deliver something you're proud of — at a price that makes sense.
-        </p>
-        <p>Let's build something divine together.</p>
-      </div>
+<div className="col-12 col-md-8">
+  <p>
+    At Divine Software Solutions, we believe technology should empower businesses, 
+    not complicate them. Our mission is to create modern, reliable, and impactful 
+    digital solutions that help businesses grow with confidence.
+  </p>
+
+  <p>
+    We specialize in building professional websites, custom software solutions, 
+    and scalable digital experiences tailored to the unique goals of each client. 
+    Every project is approached with creativity, strategy, and a commitment to quality.
+  </p>
+
+  <p>
+    Too many businesses are met with overpriced services, confusing development 
+    processes, and generic solutions that fail to deliver real value. Divine 
+    Software Solutions was founded to provide a different experience — one that 
+    prioritizes communication, transparency, and long-term partnership.
+  </p>
+
+  <p>
+    Whether working with startups, entrepreneurs, or growing local businesses, 
+    we focus on creating technology that is both effective and accessible. From 
+    concept to launch, our goal is to build solutions that not only look great, 
+    but perform reliably and support long-term success.
+  </p>
+
+  <p>
+    At Divine Software Solutions, we’re more than a software company. We’re a 
+    technology partner dedicated to helping businesses bring their ideas to life 
+    and build a stronger digital future.
+  </p>
+
+  <p>
+    Let’s build something divine together.
+  </p>
+</div>
 
     </div>
   </div>
