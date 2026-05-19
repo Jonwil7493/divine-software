@@ -173,7 +173,7 @@ function App() {
       {/* Photo Column */}
       <div className="col-12 col-md-4 text-center mb-4 mb-md-0">
         <img
-          src="/public/Headshot.jpg"
+          src="/public/Images/Headshot.jpg"
           alt="Jonathan Williams-Baxter"
           className="img-fluid rounded-circle shadow"
           style={{ maxWidth: '250px' }}
