@@ -56,46 +56,50 @@ function App() {
           </div>
         </header>
 
-{/* About Section */}
-<section id="about" className="bg-light py-5">
-  <div className="container">
-    <h2 className="text-center mb-5">About Us</h2>
-    <div className="row align-items-center">
+        {/* Portfolio Section */}
+        <section id="portfolio" className="py-5 bg-light">
+          <div className="container text-center">
+            <h2 className="highlight-gold">Our Work</h2>
+            <p className="text-muted mb-4">Projects coming soon — we're just getting started.</p>
+            <div className="row mt-2">
 
-      {/* Photo Column */}
-      <div className="col-12 col-md-4 text-center mb-4 mb-md-0">
-        <img
-          src="/public/Headshot.jpg"
-          alt="Jonathan Williams-Baxter"
-          className="img-fluid rounded-circle shadow"
-          style={{ maxWidth: '250px' }}
-        />
-      </div>
+              <div className="col-12 col-md-4 mb-4">
+                <div className="card h-100 shadow-sm">
+                  <div className="card-body d-flex flex-column align-items-center justify-content-center" style={{minHeight: '180px', background: '#1a1a2e'}}>
+                    <span style={{fontSize: '2.5rem'}}>🌐</span>
+                    <h5 className="text-light mt-2">Small Business Website</h5>
+                    <p className="text-secondary">Custom responsive site for a local business</p>
+                  </div>
+                  <div className="card-footer text-muted">Web Development</div>
+                </div>
+              </div>
 
-      {/* Text Column */}
-      <div className="col-12 col-md-8">
-        <p>
-          I'm Jonathan, founder of Divine Software Solutions and a software engineer 
-          who believes great technology shouldn't be out of reach for small businesses 
-          and startups.
-        </p>
-        <p>
-          Too many business owners have been quoted outrageous prices by agencies that 
-          treat them like a ticket number. I built Divine Software Solutions to be 
-          different — a personal, approachable partner who actually listens to your goals, 
-          builds something that works, and stays in your corner after launch.
-        </p>
-        <p>
-          Whether you're a local business that needs a professional online presence or 
-          an entrepreneur ready to bring a big idea to life, I'll work with you directly 
-          from day one to deliver something you're proud of — at a price that makes sense.
-        </p>
-        <p>Let's build something divine together.</p>
-      </div>
+              <div className="col-12 col-md-4 mb-4">
+                <div className="card h-100 shadow-sm">
+                  <div className="card-body d-flex flex-column align-items-center justify-content-center" style={{minHeight: '180px', background: '#1a1a2e'}}>
+                    <span style={{fontSize: '2.5rem'}}>🤖</span>
+                    <h5 className="text-light mt-2">AI Chatbot Integration</h5>
+                    <p className="text-secondary">Automated customer support solution</p>
+                  </div>
+                  <div className="card-footer text-muted">AI Solutions</div>
+                </div>
+              </div>
 
-    </div>
-  </div>
-</section>
+              <div className="col-12 col-md-4 mb-4">
+                <div className="card h-100 shadow-sm">
+                  <div className="card-body d-flex flex-column align-items-center justify-content-center" style={{minHeight: '180px', background: '#1a1a2e'}}>
+                    <span style={{fontSize: '2.5rem'}}>📊</span>
+                    <h5 className="text-light mt-2">Tech Strategy Consulting</h5>
+                    <p className="text-secondary">Roadmap planning for a growing startup</p>
+                  </div>
+                  <div className="card-footer text-muted">Consulting</div>
+                </div>
+              </div>
+
+            </div>
+          </div>
+        </section>
+
 
         {/* Services Section */}
         <section id="services" className="py-5">
@@ -160,49 +164,48 @@ function App() {
           </div>
         </section>
 
-        {/* Portfolio Section */}
-        <section id="portfolio" className="py-5 bg-light">
-          <div className="container text-center">
-            <h2 className="highlight-gold">Our Work</h2>
-            <p className="text-muted mb-4">Projects coming soon — we're just getting started.</p>
-            <div className="row mt-2">
+        {/* About Section */}
+<section id="about" className="bg-light py-5">
+  <div className="container">
+    <h2 className="text-center mb-5">About Us</h2>
+    <div className="row align-items-center">
 
-              <div className="col-12 col-md-4 mb-4">
-                <div className="card h-100 shadow-sm">
-                  <div className="card-body d-flex flex-column align-items-center justify-content-center" style={{minHeight: '180px', background: '#1a1a2e'}}>
-                    <span style={{fontSize: '2.5rem'}}>🌐</span>
-                    <h5 className="text-light mt-2">Small Business Website</h5>
-                    <p className="text-secondary">Custom responsive site for a local business</p>
-                  </div>
-                  <div className="card-footer text-muted">Web Development</div>
-                </div>
-              </div>
+      {/* Photo Column */}
+      <div className="col-12 col-md-4 text-center mb-4 mb-md-0">
+        <img
+          src="/public/Headshot.jpg"
+          alt="Jonathan Williams-Baxter"
+          className="img-fluid rounded-circle shadow"
+          style={{ maxWidth: '250px' }}
+        />
+      </div>
 
-              <div className="col-12 col-md-4 mb-4">
-                <div className="card h-100 shadow-sm">
-                  <div className="card-body d-flex flex-column align-items-center justify-content-center" style={{minHeight: '180px', background: '#1a1a2e'}}>
-                    <span style={{fontSize: '2.5rem'}}>🤖</span>
-                    <h5 className="text-light mt-2">AI Chatbot Integration</h5>
-                    <p className="text-secondary">Automated customer support solution</p>
-                  </div>
-                  <div className="card-footer text-muted">AI Solutions</div>
-                </div>
-              </div>
+      {/* Text Column */}
+      <div className="col-12 col-md-8">
+        <p>
+          I'm Jonathan, founder of Divine Software Solutions and a software engineer 
+          who believes great technology shouldn't be out of reach for small businesses 
+          and startups.
+        </p>
+        <p>
+          Too many business owners have been quoted outrageous prices by agencies that 
+          treat them like a ticket number. I built Divine Software Solutions to be 
+          different — a personal, approachable partner who actually listens to your goals, 
+          builds something that works, and stays in your corner after launch.
+        </p>
+        <p>
+          Whether you're a local business that needs a professional online presence or 
+          an entrepreneur ready to bring a big idea to life, I'll work with you directly 
+          from day one to deliver something you're proud of — at a price that makes sense.
+        </p>
+        <p>Let's build something divine together.</p>
+      </div>
 
-              <div className="col-12 col-md-4 mb-4">
-                <div className="card h-100 shadow-sm">
-                  <div className="card-body d-flex flex-column align-items-center justify-content-center" style={{minHeight: '180px', background: '#1a1a2e'}}>
-                    <span style={{fontSize: '2.5rem'}}>📊</span>
-                    <h5 className="text-light mt-2">Tech Strategy Consulting</h5>
-                    <p className="text-secondary">Roadmap planning for a growing startup</p>
-                  </div>
-                  <div className="card-footer text-muted">Consulting</div>
-                </div>
-              </div>
+    </div>
+  </div>
+</section>
 
-            </div>
-          </div>
-        </section>
+
 
         {/* FAQ Section */}
         <section className="py-5">
