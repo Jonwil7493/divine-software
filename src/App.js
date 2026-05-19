@@ -283,7 +283,7 @@ function App() {
                 <form onSubmit={handleSubmit}>
                   <div className="mb-3">
                     <label htmlFor="name" className="form-label">Your Name</label>
-                    <input type="text" className="form-control" id="name" name="name" placeholder="Jonathan Williams" required />
+                    <input type="text" className="form-control" id="name" name="name" placeholder="your name/company" required />
                   </div>
                   <div className="mb-3">
                     <label htmlFor="email" className="form-label">Email Address</label>
