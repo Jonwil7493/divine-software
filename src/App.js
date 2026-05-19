@@ -29,7 +29,7 @@ function App() {
         <nav className="navbar navbar-expand-lg navbar-light bg-light fixed-top shadow">
           <div className="container">
             <a className="navbar-brand" href="#home">
-              <img src="/DivineSoftwareSolutionsLogo.png" width="40" height="40" className="d-inline-block align-top" alt="Divine Software Solutions Logo" />
+              <img src="/public/DivineSoftwareSolutionsLogo.png" width="40" height="40" className="d-inline-block align-top" alt="Divine Software Solutions Logo" />
               {' '}Divine Software Solutions
             </a>
             <button className="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
@@ -65,7 +65,7 @@ function App() {
       {/* Photo Column */}
       <div className="col-12 col-md-4 text-center mb-4 mb-md-0">
         <img
-          src="/headshot.jpg"
+          src="/public/headshot.jpg"
           alt="Jonathan Williams-Baxter"
           className="img-fluid rounded-circle shadow"
           style={{ maxWidth: '250px' }}
