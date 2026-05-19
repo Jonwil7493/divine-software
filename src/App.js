@@ -282,7 +282,7 @@ function App() {
               <div className="col-12 col-md-8 col-lg-6">
                 <form onSubmit={handleSubmit}>
                   <div className="mb-3">
-                    <label htmlFor="name" className="form-label">Your Name</label>
+                    <label htmlFor="name" className="form-label">Your Name/Company</label>
                     <input type="text" className="form-control" id="name" name="name" placeholder="your name/company" required />
                   </div>
                   <div className="mb-3">
