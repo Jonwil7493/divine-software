@@ -182,6 +182,10 @@ function App() {
 
       {/* Text Column */}
       <div className="col-12 col-md-8">
+        <p>At divine software solutions, we're not just a company; we're a team of 
+          passionate individuals who believe in the power of technology to transform 
+          businesses and make a difference.
+          </p>
         <p>
           I'm Jonathan, founder of Divine Software Solutions and a software engineer 
           who believes great technology shouldn't be out of reach for small businesses 
