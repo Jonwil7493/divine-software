@@ -1,17 +1,17 @@
 {
   "files": {
     "main.css": "/divine-software/static/css/main.2ecc2565.css",
-    "main.js": "/divine-software/static/js/main.5dda4bb3.js",
+    "main.js": "/divine-software/static/js/main.ccaf9f3f.js",
     "static/js/453.6993fe06.chunk.js": "/divine-software/static/js/453.6993fe06.chunk.js",
     "static/media/bootstrap-icons.woff?": "/divine-software/static/media/bootstrap-icons.1295669cd4e305c97f2c.woff",
     "static/media/bootstrap-icons.woff2?": "/divine-software/static/media/bootstrap-icons.92ea18a81d737146ff04.woff2",
     "index.html": "/divine-software/index.html",
     "main.2ecc2565.css.map": "/divine-software/static/css/main.2ecc2565.css.map",
-    "main.5dda4bb3.js.map": "/divine-software/static/js/main.5dda4bb3.js.map",
+    "main.ccaf9f3f.js.map": "/divine-software/static/js/main.ccaf9f3f.js.map",
     "453.6993fe06.chunk.js.map": "/divine-software/static/js/453.6993fe06.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.2ecc2565.css",
-    "static/js/main.5dda4bb3.js"
+    "static/js/main.ccaf9f3f.js"
   ]
 }
