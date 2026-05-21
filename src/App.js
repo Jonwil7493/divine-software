@@ -29,7 +29,9 @@ function App() {
         <nav className="navbar navbar-expand-lg navbar-light bg-light fixed-top shadow">
           <div className="container">
             <a className="navbar-brand" href="#home">
-              <img src="/public/DivineSoftwareSolutionsLogo.png" width="40" height="40" className="d-inline-block align-top" alt="Divine Software Solutions Logo" />
+              
+              {/* fix later
+              <img src="/public/Images/DivineSoftwareSolutionsLogo.png" width="40" height="40" className="d-inline-block align-top" alt="Divine Software Solutions Logo" />  */}
               {' '}Divine Software Solutions
             </a>
             <button className="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
@@ -171,6 +173,7 @@ function App() {
     <div className="row align-items-center">
 
       {/* Photo Column */}
+      {/* fix later
       <div className="col-12 col-md-4 text-center mb-4 mb-md-0">
         <img
           src="/public/Images/Headshot.jpg"
@@ -179,6 +182,7 @@ function App() {
           style={{ maxWidth: '250px' }}
         />
       </div>
+        */}
 
       {/* Text Column */}
 <div className="col-12 col-md-8">
